@@ -6,6 +6,7 @@ plugin.tx_mfcdataprotection_ga_optout.20 = TEXT
 plugin.tx_mfcdataprotection_ga_optout.20.value = {$mfc_dataprotection_disableLinkText}
 plugin.tx_mfcdataprotection_ga_optout.20.typolink.ATagParams = class="external-link-new-window" id="gaOptOut"
 plugin.tx_mfcdataprotection_ga_optout.20.typolink.parameter = #disableGA
+plugin.tx_mfcdataprotection_ga_optout.20.stdWrap.noTrimWrap = | ||
 plugin.tx_mfcdataprotection_ga_optout.30 = TEXT
 plugin.tx_mfcdataprotection_ga_optout.30.value = {$mfc_dataprotection_afterDisableLinkText}
 
