@@ -1,14 +1,22 @@
 plugin.tx_mfcdataprotection_ga_optout = COA
-plugin.tx_mfcdataprotection_ga_optout.stdWrap.wrap = <p class="bodytext" id="disableGA"> | </p>
-plugin.tx_mfcdataprotection_ga_optout.10 = TEXT
-plugin.tx_mfcdataprotection_ga_optout.10.value = {$mfc_dataprotection_beforeDisableLinkText}
-plugin.tx_mfcdataprotection_ga_optout.20 = TEXT
-plugin.tx_mfcdataprotection_ga_optout.20.value = {$mfc_dataprotection_disableLinkText}
-plugin.tx_mfcdataprotection_ga_optout.20.typolink.ATagParams = class="external-link-new-window" id="gaOptOut"
-plugin.tx_mfcdataprotection_ga_optout.20.typolink.parameter = #disableGA
-plugin.tx_mfcdataprotection_ga_optout.20.stdWrap.noTrimWrap = | ||
-plugin.tx_mfcdataprotection_ga_optout.30 = TEXT
-plugin.tx_mfcdataprotection_ga_optout.30.value = {$mfc_dataprotection_afterDisableLinkText}
+plugin.tx_mfcdataprotection_ga_optout {
+	stdWrap.wrap = <p class="bodytext" id="disableGA"> | </p>
 
+	10 = TEXT
+	10.value = {$mfc_dataprotection_beforeDisableLinkText}
+
+	20 = TEXT
+	20 {
+		value = {$mfc_dataprotection_disableLinkText}
+		typolink.ATagParams = class="external-link-new-window" id="gaOptOut"
+		typolink.parameter = #disableGA
+		stdWrap.noTrimWrap = | ||
+	}
+
+	30 = TEXT
+	30 {
+		value = {$mfc_dataprotection_afterDisableLinkText}
+	}
+}
 
 tt_content.list.20.mfc_dataprotection_ga_optout =< plugin.tx_mfcdataprotection_ga_optout

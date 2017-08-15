@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-08-15T17:54:12Z" product-name="mfc_dataprotection">
+		<header/>
+		<body>
+			<trans-unit id="CType.ga_opt.header" xml:space="preserve">
+				<source>Google Analytics Optout</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
