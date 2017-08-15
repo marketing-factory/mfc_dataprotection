@@ -10,8 +10,7 @@ $EM_CONF['mfc_dataprotection'] = [
     'version' => '2.0.0',
     'constraints' => [
         'depends' => [
-            'php' => '5.3.0-',
-            'typo3' => '6.2.0-7.6.99',
+            'typo3' => '7.6.0-8.7.99',
         ],
         'conflicts' => [],
         'suggests' => [],
