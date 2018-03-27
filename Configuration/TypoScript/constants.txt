@@ -1,0 +1,3 @@
+mfc_dataprotection_beforeDisableLinkText = Alternativ zum Browser-Add-On oder innerhalb von Browsern auf mobilen Geräten,
+mfc_dataprotection_disableLinkText = klicken Sie bitte diesen Link
+mfc_dataprotection_afterDisableLinkText =, um die Erfassung durch Google Analytics innerhalb dieser Website zukünftig zu verhindern (das Opt Out funktioniert nur in diesem Browser</span> und nur für diese <span id="gaOptOutDom">Domain</span>). Dabei wird ein Opt-Out-Cookie auf Ihrem Gerät abgelegt. Löschen Sie Ihre Cookies in diesem Browser, müssen Sie diesen Link erneut klicken.
