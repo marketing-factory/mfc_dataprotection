@@ -6,6 +6,9 @@
 			<trans-unit id="CType.ga_opt.header" xml:space="preserve">
 				<source>Google Analytics Optout</source>
 			</trans-unit>
+			<trans-unit id="CType.fb_opt.header" xml:space="preserve">
+				<source>Facebook Optout</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

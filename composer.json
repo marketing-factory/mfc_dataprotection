@@ -1,5 +1,6 @@
 {
   "name": "mfc/mfc-dataprotection",
-  "description": "add google analytics opt-out",
+  "description": "add google analytics and facebook opt-out possibility",
+  "version": "2.1.0",
   "type": "typo3-cms-extension"
 }
