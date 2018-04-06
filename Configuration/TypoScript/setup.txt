@@ -19,4 +19,26 @@ plugin.tx_mfcdataprotection_ga_optout {
 	}
 }
 
+plugin.tx_mfcdataprotection_fb_optout = COA
+plugin.tx_mfcdataprotection_fb_optout {
+	stdWrap.wrap = <p class="bodytext" id="disableFB"> | </p>
+
+	10 = TEXT
+	10.value = {$mfc_dataprotection_beforeFbDisableLinkText}
+
+	20 = TEXT
+	20 {
+		value = {$mfc_dataprotection_disableFbLinkText}
+		typolink.ATagParams = class="external-link-new-window" id="fbOptOut"
+		typolink.parameter = #disableFB
+		stdWrap.noTrimWrap = | | |
+	}
+
+	30 = TEXT
+	30 {
+		value = {$mfc_dataprotection_afterFbDisableLinkText}
+	}
+}
+
 tt_content.list.20.mfc_dataprotection_ga_optout =< plugin.tx_mfcdataprotection_ga_optout
+tt_content.list.20.mfc_dataprotection_fb_optout =< plugin.tx_mfcdataprotection_fb_optout
